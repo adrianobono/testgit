@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/ola', (req, res) => {
 
-    res.status(200).send({ mensagem: 'ola' })
+    res.status(200).send({ mensagem: 'olas' })
 
 })
 
