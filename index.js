@@ -7,6 +7,12 @@ app.get('/', (req, res) => {
 
 })
 
+app.get('/ola', (req, res) => {
+
+    res.status(200).send({ mensagem: 'ola' })
+
+})
+
 
 app.listen(4001, () => {
 
